@@ -35,6 +35,6 @@ jobs:
       - name: Commit and push if changes
         if: env.changes == 'true' # if changes made push new data to repo
         run: |
-          echo "updated video indexgi"
+          echo "updated video index 2"
           git commit -m "updated video index"
           git push
